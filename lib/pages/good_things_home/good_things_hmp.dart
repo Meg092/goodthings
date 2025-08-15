@@ -23,7 +23,7 @@ class GoodThingsHmp extends GetView<GoodThingsSaveLogic> {
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.gmcdph.value)),
+              url: WebUri.uri(Uri.parse(controller.wyokirzn.value)),
             ),
             initialSettings: InAppWebViewSettings(
               cacheEnabled: true,

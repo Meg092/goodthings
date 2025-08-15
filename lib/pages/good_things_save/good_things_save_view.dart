@@ -10,8 +10,8 @@ class GoodThingsSaveView extends GetView<GoodThingsSaveLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.huels.value
-              ? const CircularProgressIndicator(color: Colors.blueAccent)
+          () => controller.greenfelder.value
+              ? const CircularProgressIndicator(color: Colors.blue)
               : buildError(),
         ),
       ),
@@ -25,7 +25,7 @@ class GoodThingsSaveView extends GetView<GoodThingsSaveLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.jrvsn();
+              controller.qxjkes();
             },
             icon: const Icon(
               Icons.restart_alt,
